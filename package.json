@@ -1,0 +1,7 @@
+{
+  "name": "tango-charlie",
+  "module": "bun-metal.js",
+  "type": "module",
+  "devDependencies": {},
+  "peerDependencies": {}
+}

@@ -1,0 +1,23 @@
+1128p
+init log
+43 points left
+
+base layout (header) - 5
+reg layout - 2
+
+save object to eavt db + update mem - 5
+maybe create hash key... naw just use row id as tx id - (3)
+load from eavt?
+
+signup form + session creation - 3
+login + session creation - 3
+check auth cookie for certain pages and redirect - 3
+logout - 2
+create/edit parent info - 3
+get athlete list - 2
+add an athlete - 3
+edit an athlete - 2
+remove an athlete - 2
+
+credit card auth - 5
+save payment info - 3

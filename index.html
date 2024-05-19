@@ -1,0 +1,74 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+${console.log('up in this bitch')}
+<title>Turf City Home</title>
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/home.css">
+
+</head>
+<body>
+  <button class="login button-home">login</button>
+<div class="navbar" id="navbar">
+
+  <ul class="nav-top-section">
+    <li><a href="/">Home</a></li>
+    <li><a href="/a/programs">Lacrosse</a></li>
+    <li><a href="/a/programs">Soccer</a></li>
+    <li><a href="#">Event Calendar</a></li>
+    <li><a href="/a/programs">All Programs</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">Boxing</a></li>
+    <li><a href="#">Membership</a></li>
+    <li><a href="#">Strength + Conditioning</a></li>
+    <li><a href="#">Summer Camps</a></li>
+    <li><a href="#">Physical Therapy</a></li>
+  </ul>
+  <ul>
+    <li><a href="#">Field Rentals</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Work with Us</a></li>
+  </ul>
+  <div class="social-media-container">
+    <img src="/static/fb.png" width="40" height="40"/>
+    <img src="/static/x.png" width="35" height="35"/>
+    <img src="/static/yt.png" width="45" height="45"/>
+    <img src="/static/ig.png" width="45" height="45"/>
+  </div>
+</div>
+
+<div class="menu-container" onclick="toggleMenu()">
+  <div class="menu-toggle" >☰</div>
+  <div class="menu-text">menu</div>
+</div>
+<script>
+  function toggleMenu() {
+    var navbar = document.getElementById('navbar');
+    navbar.classList.toggle('active');
+  }
+</script>
+
+
+<section class="hero-section">
+  <div class="hero-content">
+    <h1 class="title">WELCOME TO TURF CITY</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+    <button class="hero-button">See our programs</button>
+  </div>
+  <div class="scroll-down">
+    Scroll down <br> &#8595;
+  </div>
+</section>
+
+<section class="home-panel-container">
+  <div class="home-panel">
+    <div class="home-panel-text-container">
+      <h1>Girls Summer Soccer Camp</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <button>Learn more</button>
+    </div>
+    <img width="640" height="387" src="/static/home.jpg"/>
+  </div>
+</section>
+
+</body>
+</html>
